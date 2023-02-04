@@ -209,7 +209,7 @@
 				.append( _modal );
 			this.fnRenderCanvasCard();
 			$( "body" )
-				.append( `<div id="EvanIdCardSwitch"class="evan-id-card_switch">ID</div` );
+				.append( `<div id="EvanIdCardSwitch"class="evan-id-card_switch">签</div` );
 			$( "#EvanIdCardSwitch" )
 				.off( "click" )
 				.click( function () {
