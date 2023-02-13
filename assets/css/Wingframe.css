@@ -1,0 +1,38 @@
+
+
+.joe_container img {
+    max-width: 100%;
+}
+.joe_aside__item.author .user .avatar_frame {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    width: 75px;
+    height: 75px;
+    max-width: unset;
+    pointer-events: none;
+    -webkit-transform: scale(1.23);
+    transform: scale(1.23);
+    -webkit-filter: drop-shadow(1px 1px 2px var(--classL));
+    filter: drop-shadow(1px 1px 2px var(--classL));
+}
+.joe_aside__item.author .user .avatar_frame.mangci {
+    left: 62px;
+    top: -11px;
+    width: 97px;
+    height: 97px;
+}
+.joe_aside__item.author .user .avatar_widget.wing {
+    top: -28px;
+}
+.joe_aside__item.author .user .avatar_widget {
+    position: absolute;
+    left: 74px;
+    top: -10px;
+    z-index: 3;
+    width: 75px;
+    max-width: unset;
+    pointer-events: none;
+}
+
